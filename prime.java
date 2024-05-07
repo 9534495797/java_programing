@@ -5,7 +5,7 @@ public class prime {
         int num=sc.nextInt();
         if(num<=1){
             System.out.println("it is not a prime number");
-            return;
+            //return;
         }
         for(int i=2;i<=num/2;i++){
             if(num%i==0){
